@@ -153,7 +153,7 @@ width: 100%;
 .mmid{
   text-align: center;
   width: 13%;
-  height: 126vh;
+  height: 109.8vh;
   color: #111111;
   background-color: #fcc133
 }
@@ -199,6 +199,7 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .mmid2 img{
   width: 80%;
@@ -206,13 +207,12 @@ width: 100%;
 }
 .mmid2{
   width: 30%;
+  margin-left: 300px;
 }
-.mleft2{
-  position: relative;
+.mleft2 {
+  position: absolute;
 }
 .mleft2 h1{
-  position: absolute;
-  top: 100px;
   color: aliceblue;
 }
 .mright2{
@@ -226,4 +226,108 @@ width: 100%;
   text-align: center;
   font-size: 20px;
   font-weight: 900;
+}
+.assteak {
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(./images/steak.png);
+}
+.asbreak{
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 25%;
+  border: solid 8px;
+  border-color: #fcc133;
+}
+.astop{
+  padding-top: 80px;
+}
+.ascont2{
+  width: 76%;
+  margin: auto;
+}
+.asbreak h1{
+  padding: 50px 20px 30px 20px;
+  font-weight: 700;
+}
+.asbreak h3{
+  padding: 0px 20px 30px 20px;
+  line-height: 1.4;
+  font-weight: 700;
+
+}
+.asbreak h4{
+  cursor: pointer;
+  padding: 0px 20px 50px 20px;
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.asbottom{
+  color: black;
+  background-color: #fcc133;
+  text-align: center;
+  width: 25%;
+  border: solid 8px;
+  border-color: #fcc133;
+}
+.asbottom{
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.ashealthy h1{
+  padding: 50px 20px 30px 20px;
+  font-weight: 700;
+}
+.ashealthy h3{
+  padding: 0px 20px 30px 20px;
+  line-height: 1.4;
+  font-weight: 700;
+
+}
+.ashealthy h4{
+  cursor: pointer;
+  padding: 0px 20px 50px 20px;
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.asfresh{
+  display: flex;
+  color: white;
+  padding: 80px 0px 0px 150px ;
+  height: 30vh;
+  background-color: #292930;
+}
+.asfood{
+  width: 30%;
+}
+.asfood h1{
+  padding: 20px;
+}
+.asfood h3{
+  padding: 20px;
+}
+.asicons{
+  padding-left: 20px;
+  font-size: 27px;
+  color: #fcc133;;
+}
+.asfor{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.asmenu{
+  padding: 15px;
+}
+.asmenu i{
+  color: #fcc133;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 50px;
 }
